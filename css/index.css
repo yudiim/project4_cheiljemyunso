@@ -1,0 +1,43 @@
+
+
+.s1{height: 360px; position: relative;}
+.s1 .main_slide{width: 390px; height: inherit;}
+.s1 .main_slide img{width: 100%;}
+
+.s2{height: 1650px;  position: relative;}
+/* .s2 h2{position: absolute; left: 81px; top: 61px;} */
+.s2 h2{ text-align: center; padding:50px 0; font-size: 2rem;}
+.s2 .center { text-align: center; }
+.s2 .more-menu{ border:0; outline: 0; /* 기존 버튼태그의 스타일 삭제 */
+    width:148px;height: 46px; background-color: #B5AD96; text-align: center; margin: 18px 0; 
+     border-radius: 10px; box-shadow: 3px 3px 3px rgba(150, 150, 150, 0.5);}
+.s2 .more-menu > a{ width: 100%; height: 100%; font-size: 18px; color: #fff;}
+
+.s2 .article01_menu{width: 390px; height: 440px; float: left; padding: 10px 50px; box-sizing: border-box; }
+.s2 .article01_menu img{width: 227px; height: 251px; box-shadow: 1px 1px 6px rgba(150, 150, 150, 0.5); padding: 10px;}
+.s2 .article01_menu p{margin-top: 45px; font-size: 15px;}
+.s2 .article02_menu{width: 390px; height: 440px; float: left; padding: 10px 50px; box-sizing: border-box; margin-top: 40px;}
+.s2 .article02_menu img{width: 227px; height: 251px; box-shadow: 1px 1px 6px rgba(150, 150, 150, 0.5); padding: 10px;}
+.s2 .article02_menu p{margin-top: 45px; font-size: 16px;}
+.s2 .article03_menu{width: 390px; height: 440px; float: left; padding: 10px 50px; box-sizing: border-box; margin-top: 40px;}
+.s2 .article03_menu img{width: 227px; height: 251px; box-shadow: 1px 1px 6px rgba(150, 150, 150, 0.5); padding: 10px;}
+.s2 .article03_menu p{margin-top: 45px; font-size: 16px;}
+
+.s3{height: 472px; position: relative;}
+.s3 .article01{width: 390px; height: 237px; /*padding: 3px; box-sizing: border-box;*/ position: absolute; top: 0;}
+/* .s3 .center .article01 a{width: 416px; height: 252px;} */
+.s3 .article01 img{width: 100%;}
+.s3 .article02{width: 390px; height: 237px; /*padding: 3px; box-sizing: border-box;*/ position: absolute; bottom: 0;}
+.s3 .article02 img{width: 100%;}
+
+.s4{height: 554px;  position: relative;}
+/* .s4 .center{ background-color: #bbb39a;} */
+.s4 h2{ text-align: center; padding:40px 0; font-size: 2rem;}
+.s4 .swiper-container{padding-bottom: 60px;}
+.s4 .swiper-slide>div{padding: 10px; /*border: 1px solid #000;*/ background-color: #e5dcc0; box-sizing: border-box;}
+.s4 .swiper-slide>div>img{width: 100%;}
+.s4 .swiper-slide>div .text{ width: 160px; line-height: 28px; background-color: #e5dcc0; font-size: 14px; 
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+    overflow: hidden; text-overflow: ellipsis; word-wrap: break-word;
+margin-bottom: 50px;}
+

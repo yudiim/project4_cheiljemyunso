@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제일제면소_리디자인_황유림</title>
+    <link rel="shortcut icon" href="../img/favicon_cheiljemyunso.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/sub01.css">
+    <link rel="stylesheet" href="../css/default.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/myQuery.js"></script>
+</head>
+
+<script>
+    function messageGnb() {
+        alert("준비중입니다. '메뉴소개 - 별미국수와 요리' 메뉴를 이용해주세요.");
+        return false;
+    }
+</script>
+<script>
+    function message() {
+        alert("준비중입니다.");
+        return false;
+    }
+</script>
+
+
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <header id="header">
+            <div class="tab_bar">
+                <h1><a href="../index.html"><img src="../img/logo.png" alt="logo"></a></h1>
+                <div class="store_icon">
+                    <a href="#" onclick="messageGnb()">
+                        <img src="../img/store_icon.png" alt="매장안내아이콘">
+                    </a>
+                </div>
+                <div id="hamburger">
+                    <img src="../img/hamburger_icon.png" alt="">
+                </div>
+            </div>
+
+            <div id="drawer-menu">
+                <div class="navi_header">
+                    <div class="close_btn"><img src="../img/colse_btn.png" alt=""></div>
+                </div>
+                <div class="top_navi">
+                    <ul class="top_navi_menu">
+                        <li class="top_navi_list"><a href="#" onclick="messageGnb()"><img src="../img/sns_icon.png"
+                                    alt="">SNS</a></li>
+                        <li class="top_navi_list"><a href="#" onclick="messageGnb()"><img src="../img/call_icon.png"
+                                    alt="">고객센터</a></li>
+                        <li class="top_navi_list"><a href="#" onclick="messageGnb()"><img src="../img/event_icon.png"
+                                    alt="">이벤트</a></li>
+                    </ul>
+                </div>
+                <nav id="gnb">
+                    <ul class="main_menu">
+                        <li class="main_list">
+                            <a href="#">메뉴소개</a>
+                            <ul class="sub_menu">
+                                <li class="sub_list"><a href="../htm/sub01.html">별미국수와 요리</a></li>
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">회전식 샤브샤브</a></li>
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">도시락 단체 예약 주문</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_list">
+                            <a href="#" onclick="messageGnb()">매장안내</a>
+                        </li>
+                        <li class="main_list">
+                            <a href="#">제휴혜택</a>
+                            <ul class="sub_menu">
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">CJ ONE</a></li>
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">제휴카드/상품권</a></li>
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">모바일 식사권</a></li>
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">기프트카드</a></li>
+                            </ul>
+                        </li>
+                        <li class="main_list">
+                            <a href="#" onclick="messageGnb()">브랜드 소개</a>
+                        </li>
+                        <li class="main_list">
+                            <a href="#">고객지원</a>
+                            <ul class="sub_menu">
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">공지사항</a></li>
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">이벤트</a></li>
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">SNS</a></li>
+                                <li class="sub_list"><a href="#" onclick="messageGnb()">고객센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="bottom_navi">
+                    <ul class="top_navi_menu">
+                        <li class="top_navi_list"><a href="#" onclick="messageGnb()"><img src="../img/login_icon.png"
+                                    alt="">로그인</a></li>
+                        <li class="top_navi_list"><a href="#" onclick="messageGnb()"><img src="../img/signup_icon.png"
+                                    alt="">회원가입</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- //header -->
+
+        <!-- top btn -->
+        <div id="topBtn">▲<br>top</div>
+        <!-- //top btn -->
+
+        <!-- s1 new_menu -->
+        <section class="s1 new_menu">
+            <div class="center">
+                <div class="main_slide">
+                    <h2>신메뉴</h2>
+                    <img src="../img/thumbnail_07.png" alt="indexNum00">
+                    <img src="../img/thumbnail_08.png" alt="indexNum01">
+                    <!-- <img src="img/thumbnail_09.png" alt="indexNum02"> -->
+                </div>
+            </div>
+        </section>
+        <!-- //s1 new_menu -->
+
+        <!-- container -->
+        <div id="container">
+            <div class="center">
+                <h2>별미국수와 요리</h2>
+                <!-- s2 면 -->
+                <section class="s2" id="noodle">
+                    <div class="menu_tab">
+                        <h3>면</h3>
+                        <ul>
+                            <li class="noodle"><a href="#noodle">면</a></li>
+                            <li class="rice"><a href="#rice">밥,곁들임</a></li>
+                            <li class="side_dish"><a href="#side_dish">별미요리</a></li>
+                            <li class="lunch_box"><a href="#lunch_box">도시락</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-list">
+                        <article class="menu01">
+                            <a href="#" onclick="message()">
+                                <img src="../img/noodle_thumb01.png" alt="">
+                                <p>제일국수</p>
+                            </a>
+                        </article>
+                        <article class="menu01">
+                            <a href="#" onclick="message()">
+                                <img src="../img/noodle_thumb02.png" alt="">
+                                <p>제일우동</p>
+                            </a>
+                        </article>
+                        <article class="menu01">
+                            <a href="#" onclick="message()">
+                                <img src="../img/noodle_thumb03.png" alt="">
+                                <p>소불고기우동</p>
+                            </a>
+                        </article>
+                        <article class="menu01">
+                            <a href="#" onclick="message()">
+                                <img src="../img/noodle_thumb04.png" alt="">
+                                <p>우삼겹 비빔국수</p>
+                            </a>
+                        </article>
+                    </div>
+                </section>
+                <!-- //s2 면 -->
+
+                <!-- s3 밥,곁들임 -->
+                <section class="s3" id="rice">
+                    <div class="menu_tab">
+                        <h3>밥,곁들임</h3>
+                        <ul>
+                            <li class="noodle"><a href="#noodle"><span>면</span></a></li>
+                            <li class="rice"><a href="#rice"><span>밥,곁들임</span></a></li>
+                            <li class="side_dish"><a href="#side_dish"><span>별미요리</span></a></li>
+                            <li class="lunch_box"><a href="#lunch_box"><span>도시락</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-list">
+                        <article class="menu02">
+                            <a href="#" onclick="message()">
+                                <img src="../img/rice_thumb01.png" alt="">
+                                <p>스팸주먹밥</p>
+                            </a>
+                        </article>
+                        <article class="menu02">
+                            <a href="#" onclick="message()">
+                                <img src="../img/rice_thumb02.png" alt="">
+                                <p>주꾸미삼겹살덮밥</p>
+                            </a>
+                        </article>
+                        <article class="menu02">
+                            <a href="#" onclick="message()">
+                                <img src="../img/rice_thumb03.png" alt="">
+                                <p>소불고기달걀덮밥</p>
+                            </a>
+                        </article>
+                        <article class="menu02">
+                            <a href="#" onclick="message()">
+                                <img src="../img/rice_thumb04.png" alt="">
+                                <p>수제돈까스</p>
+                            </a>
+                        </article>
+                    </div>
+                </section>
+                <!-- //s3 밥,곁들임 -->
+
+                <!-- s4 별미요리 -->
+                <section class="s4">
+                    <div class="menu_tab" id="side_dish">
+                        <h3>별미요리</h3>
+                        <ul>
+                            <li class="noodle"><a href="#noodle"><span>면</span></a></li>
+                            <li class="rice"><a href="#rice"><span>밥,곁들임</span></a></li>
+                            <li class="side_dish"><a href="#side_dish"><span>별미요리</span></a></li>
+                            <li class="lunch_box"><a href="#lunch_box"><span>도시락</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-list">
+                        <article class="menu03">
+                            <a href="#" onclick="message()">
+                                <img src="../img/sidedish_thumb01.png" alt="">
+                                <p>녹두전</p>
+                            </a>
+                        </article>
+                        <article class="menu03">
+                            <a href="#" onclick="message()">
+                                <img src="../img/sidedish_thumb02.png" alt="">
+                                <p>모둠우동전골</p>
+                            </a>
+                        </article>
+                        <article class="menu03">
+                            <a href="#" onclick="message()">
+                                <img src="../img/sidedish_thumb03.png" alt="">
+                                <p>씨앗닭강정</p>
+                            </a>
+                        </article>
+                        <article class="menu03">
+                            <a href="#" onclick="message()">
+                                <img src="../img/sidedish_thumb04.png" alt="">
+                                <p>주꾸미우삼겹볶음</p>
+                            </a>
+                        </article>
+                    </div>
+                </section>
+                <!-- //s4 별미요리 -->
+
+                <!-- s5 도시락 -->
+                <section class="s5" id="lunch_box">
+                    <div class="menu_tab">
+                        <h3>도시락</h3>
+                        <ul>
+                            <li class="noodle"><a href="#noodle"><span>면</span></a></li>
+                            <li class="rice"><a href="#rice"><span>밥,곁들임</span></a></li>
+                            <li class="side_dish"><a href="#side_dish"><span>별미요리</span></a></li>
+                            <li class="lunch_box"><a href="#lunch_box"><span>도시락</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-list">
+                        <article class="menu04">
+                            <a href="#" onclick="message()">
+                                <img src="../img/lunch_thumb01.png" alt="">
+                                <p>수제주먹밥 도시락</p>
+                            </a>
+                        </article>
+                        <article class="menu04">
+                            <a href="#" onclick="message()">
+                                <img src="../img/lunch_thumb02.png" alt="">
+                                <p>제일 모둠 도시락</p>
+                            </a>
+                        </article>
+                        <article class="menu04">
+                            <a href="#" onclick="message()">
+                                <img src="../img/lunch_thumb03.png" alt="">
+                                <p>소불고기 도시락</p>
+                            </a>
+                        </article>
+                        <article class="menu04">
+                            <a href="#" onclick="message()">
+                                <img src="../img/lunch_thumb04.png" alt="">
+                                <p>제일 명가 도시락</p>
+                            </a>
+                        </article>
+                    </div>
+
+                    <div class="button-pack">
+                        <button class="more-menu"><a href="#" onclick="messageGnb()"></a>회전식 샤브샤브 →</a></button>
+                        <button class="more-menu02"><a href="#" onclick="messageGnb()"></a>도시락 단체 예약 주문 바로가기 →</a></button>
+                    </div>
+
+                </section>
+                <!-- //s5 도시락 -->
+            </div>
+        </div>
+        <!-- // container -->
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="center">
+                <ul>
+                    <li><a href="#" onclick="messageGnb()"><span>제휴혜택</span></a></li>
+                    <li><a href="#" onclick="messageGnb()"><span>고객센터</span></a></li>
+                    <li><a href="#" onclick="messageGnb()"><span>개인정보처리방침</span></a></li>
+                    <li><a href="#" onclick="messageGnb()"><span>이용약관</span></a></li>
+                </ul>
+                <address>
+                    (우)04555 서울시 중구 마른내로 34(초동 106-9번지)<br>KT&G을지로타워 3, 9-11층 CJ푸드빌(주)<br>
+                </address>
+                <p>대표이사 : 김찬호 고객센터 : 1577-0700 팩스 : 02)6740-4349 사업자등록번호 : 312-81-42519 개인정보보호책임자 : 오창호 대표이메일 :
+                    help_master@cj.net</p>
+                <p class="copyright">Copyright ⓒ 2021 CJ Foodbille ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+        <!-- //footer -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+h2{text-align: center; line-height: 80px; font-size: 25px;}
+h3{text-align: center; line-height: 80px; font-size: 25px; color: #fff;}
+p{ text-align: center;}
+a{ color: #2A271E;}
+
+#container{height: 3300px;}
+
+.s1 {height: 294px;}
+.s1 .main_slide{ height: 294px;}
+.s1 .main_slide h2{text-align: center; line-height: 60px; font-size: 20px;}
+.s1 img{ width: 187px;}
+
+.s2{height: 760px;}
+.s2 .menu_tab{width: 100%; height: 232px;  background-size: cover;
+    background-image: url(../img/menu_background.png);}
+.s2 .menu_tab ul{width: 275px; height: 95px; position: relative; margin: 20px 57px;}
+.s2 .menu_tab ul>li{position: absolute; display:block; width: 135px; line-height: 44px; 
+ box-sizing: border-box; text-align: center; }
+.s2 .menu_tab ul>li a{ display: block; width: 100%; }
+.s2 .noodle{top: 0; left: 0; background-color: #5C5A5A;  position: absolute;}
+.s2 .noodle a{ color: #fff;}
+.s2 .rice{top: 0; right: 0; background-color: #fff;}
+.s2 .side_dish{bottom: 0; left: 0; background-color: #fff;}
+.s2 .lunch_box{bottom: 0; right: 0; background-color: #fff;}
+
+.s2 .menu-list{ height: 527px; display: flex; flex-wrap: wrap; justify-content: space-around;}
+.s2 .menu01{ width: 174px; height: 211px; padding-top: 20px; }
+.s2 .menu01 a{ width: 174px;}
+.s2 .menu01 img{ width: 100%; box-shadow: 1px 1px 3px rgba(150, 150, 150, 0.5);}
+.s2 .menu01 p{ line-height: 46px; color: #2A271E;  font-size: 15px;}
+
+.s3{height: 760px;}
+.s3 .menu_tab{width: 100%; height: 232px;  background-size: cover;
+    background-image: url(../img/menu_background.png);}
+.s3 .menu_tab ul{width: 275px; height: 95px; position: relative; margin: 20px 57px;}
+.s3 .menu_tab ul>li{position: absolute; display:block; width: 135px; line-height: 44px;
+ box-sizing: border-box; text-align: center;}
+.s3 .menu_tab ul>li a{ display: block; width: 100%;}
+.s3 .noodle{top: 0; left: 0; background-color: #fff;}
+.s3 .rice{top: 0; right: 0; background-color: #5C5A5A;}
+.s3 .rice a{ color: #fff;}
+.s3 .side_dish{bottom: 0; left: 0; background-color: #fff;}
+.s3 .lunch_box{bottom: 0; right: 0; background-color: #fff;}
+
+.s3 .menu-list{ height: 527px; display: flex; flex-wrap: wrap; justify-content: space-around;}
+.s3 .menu02{ width: 174px; height: 211px; padding-top: 20px;}
+.s3 .menu02 a{ width: 174px;}
+.s3 .menu02 img{ width: 100%; box-shadow: 1px 1px 3px rgba(150, 150, 150, 0.5);}
+.s3 .menu02 p{ line-height: 46px; color: #2A271E; font-size: 15px;}
+
+.s4{height: 760px;}
+.s4 .menu_tab{width: 100%; height: 232px;  background-size: cover;
+    background-image: url(../img/menu_background.png);}
+.s4 .menu_tab ul{width: 275px; height: 95px; position: relative; margin: 20px 57px;}
+.s4 .menu_tab ul>li{position: absolute; display:block; width: 135px; line-height: 44px; 
+ box-sizing: border-box; text-align: center;}
+.s4 .menu_tab ul>li a{ display: block; width: 100%;}
+.s4 .noodle{top: 0; left: 0; background-color: #fff;}
+.s4 .rice{top: 0; right: 0; background-color: #fff;}
+.s4 .side_dish{bottom: 0; left: 0; background-color: #5C5A5A;}
+.s4 .side_dish a{ color: #fff;}
+.s4 .lunch_box{bottom: 0; right: 0; background-color: #fff;}
+
+.s4 .menu-list{ height: 527px;  display: flex; flex-wrap: wrap; justify-content: space-around;}
+.s4 .menu03{ width: 174px; height: 211px; padding-top: 20px;}
+.s4 .menu03 a{ width: 174px;}
+.s4 .menu03 img{ width: 100%; box-shadow: 1px 1px 3px rgba(150, 150, 150, 0.5);}
+.s4 .menu03 p{ line-height: 46px; color: #2A271E; font-size: 15px;}
+
+.s5{height: 970px;}
+.s5 .menu_tab{width: 100%; height: 232px;  background-size: cover;
+    background-image: url(../img/menu_background.png);}
+.s5 .menu_tab ul{width: 275px; height: 95px; position: relative; margin: 20px 57px;}
+.s5 .menu_tab ul>li{position: absolute; display:block; width: 135px; line-height: 44px; 
+ box-sizing: border-box; text-align: center;}
+.s5 .menu_tab ul>li a{ display: block; width: 100%;}
+.s5 .noodle{top: 0; left: 0; background-color: #fff;}
+.s5 .rice{top: 0; right: 0; background-color: #fff;}
+.s5 .side_dish{bottom: 0; left: 0; background-color: #fff;}
+.s5 .lunch_box{bottom: 0; right: 0; background-color: #5C5A5A;}
+.s5 .lunch_box a{ color: #fff;}
+
+.s5 .menu-list{ height: 485px;  display: flex; flex-wrap: wrap; justify-content: space-around;}
+.s5 .menu04{ width: 174px; height: 211px; padding-top: 20px;}
+.s5 .menu04 a{ width: 174px;}
+.s5 .menu04 img{ width: 100%; box-shadow: 1px 1px 3px rgba(150, 150, 150, 0.5);}
+.s5 .menu04 p{ line-height: 46px; color: #2A271E; font-size: 15px;}
+
+.s5 .button-pack{ height: 250px; display: flex; flex-direction: column;  align-items: center;}
+
+.s5 .button-pack .more-menu{ display: block; border:0; outline: 0; /* 기존 버튼태그의 스타일 삭제 */
+    width:162px; height: 46px; background-color: #B5AD96; text-align: center; margin-top: 18px; 
+    font-size: 15px; color: #fff; border-radius: 10px; box-shadow: 1px 3px 3px rgba(150, 150, 150, 0.5);
+    float: left;
+}
+.s5 .button-pack .more-menu02{ display: block; border:0; outline: 0; /* 기존 버튼태그의 스타일 삭제 */
+    width:260px; height: 46px; background-color: #B5AD96; text-align: center; margin-top: 18px; 
+    font-size: 15px; color: #fff; border-radius: 10px; box-shadow: 1px 3px 3px rgba(150, 150, 150, 0.5);
+    float: left;
+}
+.s5 .button-pack .more-menu a{color: #fff; font-size: 15px;}
+
